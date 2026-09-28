@@ -58,7 +58,7 @@ func main() {
 		fmt.Printf("Placar -> Você: %d | Máquina: %d\n\n", meusPontos, pontosMaquina)
 	}
 
-	fmt.Println("=== FIM DE JOGO ===")
+	fmt.Println("==== FIM DE JOGO ====")
 	if meusPontos > pontosMaquina {
 		fmt.Println("🏆 VOCÊ GANHOU O JOGO!")
 	} else {
